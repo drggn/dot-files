@@ -1,0 +1,18 @@
+set autoindent
+set backupdir "~/.nano/backup"
+set constantshow
+set cut
+set morespace
+set mouse
+set multibuffer
+set smarthome
+set suspend
+set tabsize 4
+set unix
+
+# highlight trailing whitespace
+syntax "all" ""
+color ,green "[[:space:]]+$"
+
+# keybindings
+bind ^w cutwordleft main

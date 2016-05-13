@@ -1,0 +1,8 @@
+[user]
+	name = Dennis Roggan
+	email = d.r@fu-berlin.de
+[core]
+	editor = nano
+	pager = most
+[push]
+	default = simple

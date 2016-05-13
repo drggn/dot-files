@@ -1,0 +1,17 @@
+alias l=ls
+alias ls="ls --color=auto"
+alias la="ls -a"
+alias ll="ls -l"
+alias lla="ls -la"
+
+alias gg="git grep"
+alias gd="git diff"
+alias gp="git push"
+alias gc="git commit"
+alias gcm="git commit -m"
+
+alias f=fg
+alias m=most
+alias tmux="tmux -2"
+alias enw="emacs -nw"
+alias e=emacsclient
