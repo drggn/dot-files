@@ -21,9 +21,13 @@
 	     '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
+(setq color "foreground")
+(if (display-graphic-p)
+	(progn(setq color "white")
+		  (set-background-color "black")))
 (mapc
  (lambda (face)
-   (set-face-attribute face nil :weight 'normal :foreground "foreground"))
+   (set-face-attribute face nil :weight 'normal :foreground color))
  (face-list))
 
 (set-face-foreground 'font-lock-comment-face "green")

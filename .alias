@@ -15,3 +15,4 @@ alias m=most
 alias tmux="tmux -2"
 alias enw="emacs -nw"
 alias e=emacsclient
+alias moc=mocp
