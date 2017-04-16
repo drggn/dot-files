@@ -9,6 +9,7 @@ alias gd="git diff"
 alias gp="git push"
 alias gc="git commit"
 alias gcm="git commit -m"
+alias gst="git status"
 
 alias f=fg
 alias m=most
@@ -16,3 +17,5 @@ alias tmux="tmux -2"
 alias enw="emacs -nw"
 alias e=emacsclient
 alias moc=mocp
+
+alias todo="grep 'TODO\|FIX*ME'"

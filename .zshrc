@@ -24,3 +24,4 @@ PS1="%(?..<%?>)%~ %# "
 export PAGER=most
 export MANPAGER=most
 export MANTERM=xfce4-terminal
+
